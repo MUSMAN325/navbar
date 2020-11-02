@@ -1,0 +1,65 @@
+nav {
+    background-color: darkgray;
+}
+nav ul li {
+    list-style: none;
+    line-height: 40px;
+    height: 40px;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: yellowgreen;
+    
+    
+}
+ 
+nav ul li ul li{
+    display: none;
+
+}
+nav ul li {
+    width: 100%;
+}
+nav ul li:hover ul li{
+ background-color: black;
+ display: block;
+ 
+  
+}
+*{
+    padding: 0%;
+}
+/* .container{
+    background-color: lawngreen;
+    width: 100px;
+    animation-name: exam;
+    animation-duration: 5s;
+}
+
+@keyframes exam{
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: lightskyblue;
+
+    }
+    25%{
+        left: 200px;
+        top: 0px;
+        background: lightslategrey;
+    }
+    50%{
+       
+
+}
+} */
